@@ -1,8 +1,10 @@
 import asyncio
+from dataclass import dataclass
 from typing import NamedTuple
 from mavsdk import System
 from mavsdk.offboard import PositionGlobalYaw, VelocityNedYaw
 
+@dataclass
 class NedPosition(NamedTuple):
     north: float
     east: float
