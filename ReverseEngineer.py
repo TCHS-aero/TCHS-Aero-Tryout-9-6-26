@@ -4,6 +4,7 @@ from typing import NamedTuple
 from mavsdk import System
 from mavsdk.offboard import PositionGlobalYaw, VelocityNedYaw
 
+# You are not required to understand what a dataclass is.
 @dataclass
 class NedPosition(NamedTuple):
     north: float
