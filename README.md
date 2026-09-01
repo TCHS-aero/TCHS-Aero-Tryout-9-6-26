@@ -36,24 +36,24 @@ typewrite(f"Hello, {name}! I see that you are currently running {system()}. How 
 
 Commented code:
 ```python
-# import essential modules
+# import essential modules to be used later
 from time import sleep # import sleep function to add delay between character outputs
 from platform import system # import system func to retrieve os type
 
-# define a function that takes a string and outputs each character one by one
+# define a function that takes a string and outputs each character one by one for easy re-use of code
 def typewrite(text, delay=0.1): # a delay of 0.1 seconds between each character, defaults to 0.1 if no value provided
-	# iterate through all characters in the string
+	# iterate through all characters in the string to isolate them
 	for character in text:
 		# print each character individually, specifying no linebreak
 		print(character, end="", flush=True)
-		# wait for the provided delay before moving onto the next char
+		# wait for the provided delay before moving onto the next char to simulate typing
 		sleep(delay)
 	# add a line break when finishing printing to simulate a normal print statement
 	print("\n")
 
-# call typewrite func and provide a string
+# call typewrite func and provide a string that will be written
 typewrite("What is your name?")
-# grab user input as a string
+# grab user input as a string to be used in the message
 name = input("Name: ")
 # use a formatted string to typewrite everything fully, including the os type
 typewrite(f"Hello, {name}! I see that you are currently running {system()}. How fun!")
