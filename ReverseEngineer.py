@@ -87,7 +87,7 @@ class Drone:
             ned_object = await self.current_ned()
             await asyncio.sleep(0.2)
 
-    async def move(self, direction: str, velocity, distance, *, yaw = 0):
+    async def move(self, direction: str, velocity, distance, *, yaw=0):
         func_map = {
             "l": self._left_offset,
             "r": self._right_offset,
@@ -97,7 +97,7 @@ class Drone:
 
         method = func_map.get(direction)
         if method:
-            await method(velocity, distance, yaw = yaw)
+            await method(velocity, distance, yaw=yaw)
             await asyncio.sleep(1)
             return
 
@@ -115,13 +115,17 @@ async def main():
     drone_object = Drone("udpin://0.0.0.0:14540")
     await drone_object.connect()
     await drone_object.takeoff(15)
+
     await asyncio.sleep(15)
+
     await drone_object.drone.offboard.set_velocity_ned(VelocityNedYaw(0.0, 0.0, 0.0, 0.0))
     await drone_object.drone.offboard.start()
+
     await drone_object.move("f", 10, 50)
     await drone_object.move("r", 10, 50)
     await drone_object.move("b", 10, 50)
     await drone_object.move("l", 10, 50)
+
     await drone_object.land()
 
 if __name__ == "__main__":
