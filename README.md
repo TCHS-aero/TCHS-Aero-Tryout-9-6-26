@@ -3,7 +3,7 @@
 This is TCHS Aero's Software Tryout for the September 2026 season!
 
 - - -
-This tryout was designed to be difficult *on purpose*. **You will not be graded on your performance, but rather the effort you apply and your eagerness to learn.** If you prove to us through this tryout that you are atleast putting in 100% effort, you will have a higher chance of making the team.
+This tryout was designed to be difficult *on purpose*. **You will not be graded on your performance, but rather the effort you apply and your eagerness to learn.** If you prove to us through this tryout that you are at least putting in 100% effort, you will have a higher chance of making the team.
 
 Here's what's up. This is the first part of your tryout. Your goal is simple; **Reverse engineer a provided script, and make one of your own modeled after the first.** If you did some high quality reading of the skillset pdf, you should be good to go!
 - - -
@@ -12,7 +12,7 @@ Here's what's up. This is the first part of your tryout. Your goal is simple; **
 
 In this repository, you will find a script labeled `ReverseEngineer.py`. You will fork this repository by clicking on the fork button, and make changes accordingly.
 
-Edit `ReverseEngineer.py` and comment the code as much as possible according to what you think that everything does. Do not be afraid to go back and make changes; always read everything first.
+Edit `ReverseEngineer.py` and comment the code as much as possible according to what you think everything does. Do not be afraid to go back and make changes; always read everything first.
 
 *`ReverseEngineer.py` is a sneak-peek into what you will be doing later on in the year, and is an optimized snippet of pre-existing code.*
 
