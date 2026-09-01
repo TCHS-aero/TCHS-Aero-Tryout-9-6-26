@@ -3,7 +3,7 @@
 This is TCHS Aero's Software Tryout for the September 2026 season!
 
 - - -
-This tryout was designed to be difficult *on purpose*. **You will not be graded on your performance, but rather your eagerness to learn.** If you prove to us through this tryout that you are atleast putting in 100% effort, you will have a higher chance of making the team.
+This tryout was designed to be difficult *on purpose*. **You will not be graded on your performance, but rather the effort you apply and your eagerness to learn.** If you prove to us through this tryout that you are atleast putting in 100% effort, you will have a higher chance of making the team.
 
 Here's what's up. This is the first part of your tryout. Your goal is simple; **Reverse engineer a provided script, and make one of your own modeled after the first.** If you did some high quality reading of the skillset pdf, you should be good to go!
 - - -
