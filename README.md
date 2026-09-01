@@ -16,7 +16,7 @@ Edit `ReverseEngineer.py` and comment the code as much as possible according to 
 
 *`ReverseEngineer.py` is a sneak-peek into what you will be doing later on in the year, and is an optimized snippet of pre-existing code.*
 
-An example of the bare minimum is shown below.
+An example of the bare minimum is shown below. (Bonus points if you include PEP 8 compliant docstrings!)
 
 Uncommented code:
 ```python
