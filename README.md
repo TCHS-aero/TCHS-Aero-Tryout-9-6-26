@@ -91,4 +91,4 @@ Feel free to ask questions, but they will not be directly answered.
 Your submission will be in the form of a pull request. You will be guided on how to do this.
 - - -
 
-This concludes the first half of the software tryout. Have fun!
+This concludes the first half of the software tryout. Good luck! ☺️👐
