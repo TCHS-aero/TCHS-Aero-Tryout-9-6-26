@@ -1,6 +1,6 @@
 # TCHS Aero Tryout 9/6/26
 
-This is TCHS Aero's Software Tryout for the September 26th season!
+This is TCHS Aero's Software Tryout for the September 2026 season!
 
 - - -
 This tryout was designed to be difficult *on purpose*. **You will not be graded on your performance, but rather your eagerness to learn.** If you prove to us through this tryout that you are atleast putting in 100% effort, you will have a higher chance of making the team.
